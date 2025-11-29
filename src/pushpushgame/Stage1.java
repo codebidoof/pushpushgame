@@ -13,7 +13,7 @@ public class Stage1 extends JPanel {
 	private Image _firingImg; 
 	private Image _doorImg; 
     private int _rowCount = 7;
-    private int _colCount = 7;9fff'
+    private int _colCount = 7;
     private boolean isDoorOpen = false;
     private int doorRow = 3, doorCol = 3; // 문 위치
     private int[][] _mapData = { // 0:잉여 및 길, 1:징애물, 2:횃대   // Stage1 맵 크기는 7X7로 설정
